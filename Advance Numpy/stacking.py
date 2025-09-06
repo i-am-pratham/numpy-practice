@@ -9,4 +9,8 @@ import numpy as np
 arr1= np.array([10,20,30])
 arr2= np.array([40,50,60])
 
-print(np.vstack(arr1,arr2))
+print(np.vstack((arr1,arr2)))
+print(np.hstack((arr1,arr2)))
+
+print(np.stack((arr1,arr2), axis=0))  
+print(np.stack((arr1,arr2), axis=1))

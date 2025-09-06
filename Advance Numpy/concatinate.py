@@ -12,3 +12,8 @@ arr2= np.array([30,50,60])
 
 newArr=np.concatenate((arr1,arr2))
 print(newArr)
+
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+print(np.concatenate((a,b), axis=0))
+print(np.concatenate((a,b), axis=1))
